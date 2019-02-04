@@ -1,11 +1,11 @@
 package torba.java1101.homework2.task2;
 
 public class task2 {
-   /* 1. Вывести десятичные коды символов своего ФИО
-2. Перенести Фамилию в конец ФИО
-3. Развернуть строку ФИО задом наперед*/
+    /* 1. Вывести десятичные коды символов своего ФИО
+ 2. Перенести Фамилию в конец ФИО
+ 3. Развернуть строку ФИО задом наперед*/
     public static void main(String[] args) {
-form();
+        form();
     }
     public static void form() {
         String FIO = "Торба Антон Андреевич";
@@ -32,7 +32,6 @@ form();
         for (int index = FIO.length() - 1; index >= 0; index--) {
             char ch = FIO.charAt(index);
             reversedLine.append(ch);
-
         }
         System.out.print(reversedLine);
     }
