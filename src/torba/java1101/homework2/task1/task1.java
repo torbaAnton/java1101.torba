@@ -5,7 +5,6 @@ package torba.java1101.homework2.task1;
 //3. Развернуть строку ФИО задом наперед
 public class task1 {
     public static void main(String[] args) {
-        String name = "Торба Антон Андреевич";
         String name1 = "Торба";
         String name2 = "Антон";
         String name3 = "Андреевич";
@@ -22,11 +21,15 @@ public class task1 {
         for(int i=0;i<arr3.length;i++) {
             System.out.print((int) arr3[i]+" ");
         }
-        StringBuffer sb = new StringBuffer(name);
-        sb.reverse();
-        System.out.println("\n"+ sb);
+        getReverse();
         StringBuffer sb2 = new StringBuffer();
         sb2.append(name2).append(" "+name3).append(" "+name1);
         System.out.println(sb2);
+    }
+    public static void getReverse() {
+        String name = "Торба Антон Андреевич";
+        StringBuffer sb = new StringBuffer(name);
+        sb.reverse();
+        System.out.println("\n" + sb);
     }
 }
