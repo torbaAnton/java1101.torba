@@ -1,6 +1,6 @@
 package torba.java1101.oop.joanne_K_rowling_universe;
 
-public class Spirit extends TheEssence {
+public class Spirit {
     /*
     *@javadoc
     * прозрачность может быть от 0 до 1

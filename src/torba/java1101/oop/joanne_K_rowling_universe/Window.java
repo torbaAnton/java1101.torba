@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 
 public class Window extends JFrame {
     private JButton button = new JButton("Press");
-    private JTextField input = new JTextField("", 5);
     private JRadioButton radio1 = new JRadioButton("Boggart");
     private JRadioButton radio2 = new JRadioButton("Headless Nic");
     private JRadioButton radio3 = new JRadioButton("Bloody Baron");
