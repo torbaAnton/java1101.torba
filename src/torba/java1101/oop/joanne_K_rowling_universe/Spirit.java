@@ -108,8 +108,8 @@ public class Spirit extends TheEssence {
         this.transparency = transparency;
     }
     public String toString(){
-        return "Name is: "+getName()+"\n"+"Description is: "+getDescription()+"\n "+"Incorporeality is: " +getIncorporeality()
-                +"\n"+"Location is: "+getLocation()+"\n "+"Sex is: "+getSex()+"\n "+"Temperament is: "+getTemperament()+"\n "+"Transparency is: "+getTransparency()+"\n+";
+        return "Name is: "+getName()+"\n"+"Description is: "+getDescription()+"\n"+"Incorporeality is: "+getIncorporeality()
+                +"\n"+"Location is: "+getLocation()+"\n"+"Sex is: "+getSex()+"\n"+"Temperament is: "+getTemperament()+"\n"+"Transparency is: "+getTransparency()+"\n";
     }
 
 }
