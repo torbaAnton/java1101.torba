@@ -8,7 +8,7 @@ public class task1 {
         int division;
         int exactDivision;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите первое число33: ");
+        System.out.println("Введите первое число: ");
         int q = scan.nextInt();
         System.out.println("Введите второе число: ");
         int w = scan.nextInt();
